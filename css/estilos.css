@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Tangerine:wght@700&display=swap");
+body {
+  background-color: bisque;
+}
+
+/*encabezado*/
+.logo {
+  width: 300px;
+}
+
+.btnnormal {
+  background-color: #2C8D95;
+}
+
+.btnnormal:hover {
+  background-color: #93C7BA;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  color: darkcyan;
+  text-align: center;
+  font-family: "Tangerine", cursive;
+  padding-bottom: 2px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 500px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+  font-size: small;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.colorfondo {
+  background-color: rgb(198, 242, 255);
+}
+
+/*MAIN*/
+main {
+  text-align: center;
+}
+
+main p {
+  margin: 10px 70px;
+}
+
+/*footer*/
+.piePagina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.piePagina li {
+  margin: 5px 200px 10px 200px;
+  margin-inline: 10px;
+  font-size: 15px;
+  color: antiquewhite;
+}
+
+/*Productos*/
+.contenedorProductos img {
+  width: 300px;
+}
+
+main iframe {
+  margin: 60px;
+}
+
+/*mapa*/
+.mapa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
